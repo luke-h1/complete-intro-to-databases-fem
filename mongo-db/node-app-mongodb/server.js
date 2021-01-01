@@ -29,6 +29,6 @@ async function init() {
   const PORT = 3000;
   app.use(express.static("./static"));
   app.listen(PORT);
-  console.log(`Server listening on http://localhost:${PORT}`); 
+  console.log(`Server listening on http://localhost:${PORT}`);
 }
 init();
